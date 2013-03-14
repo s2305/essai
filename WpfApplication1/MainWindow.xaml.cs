@@ -41,7 +41,7 @@ namespace WpfApplication1
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("coucou");
+            MessageBox.Show("coucou les amis");
         }
     }
 }
