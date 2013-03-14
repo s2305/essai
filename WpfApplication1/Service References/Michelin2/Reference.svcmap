@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="14f71347-65fb-4120-8945-56a668d3df09" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55547/ServiceMichelin.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceMichelin.xsd" MetadataType="Schema" ID="a11891fa-ad9a-4b5d-9cca-a46c4e0d9989" SourceId="1" SourceUrl="http://localhost:55547/ServiceMichelin.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceMichelin.wsdl" MetadataType="Wsdl" ID="c9609f20-2e93-41f9-998c-8e32c15f68b6" SourceId="1" SourceUrl="http://localhost:55547/ServiceMichelin.svc?wsdl" />
+    <MetadataFile FileName="ServiceMichelin1.xsd" MetadataType="Schema" ID="da18945e-88f5-4159-834d-d2b0fc266b09" SourceId="1" SourceUrl="http://localhost:55547/ServiceMichelin.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
