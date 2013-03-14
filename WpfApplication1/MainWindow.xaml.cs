@@ -38,5 +38,10 @@ namespace WpfApplication1
         {
             textBox2.Text = proxy.GetPrix("MX").ToString() ;
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("coucou");
+        }
     }
 }
